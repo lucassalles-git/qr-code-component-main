@@ -26,9 +26,10 @@ body {
 }
 
 .container {
-    width: 26.188rem;
-    margin-bottom: 3.75rem;
-    padding: 1.25rem;
+    width: 18.125rem;
+    /* base para telas pequenas */
+    margin-bottom: 1.25rem;
+    padding: 0.9375rem;
     background-color: var(--white);
     border-radius: 1.25rem;
     box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.137);
@@ -40,18 +41,18 @@ body {
 }
 
 .text {
-    margin: 1.5625rem;
+    margin: 0.3125rem 0.1875rem;
     text-align: center;
 }
 
 h1 {
     margin-bottom: 1.25rem;
     color: var(--slate-900);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 0.93rem;
     color: var(--slate-500);
 }
 
@@ -60,37 +61,23 @@ p {
 }
 
 .network {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-
-@media (max-width: 55.25em) {
-
-    
+/* Tablet pequeno em diante (a partir de 374px) */
+@media (min-width: 23.375em) {
     .container {
-        width: 26.375rem;
-        margin-bottom: 3.75rem;
-        padding: 1.25rem;
-        border-radius: 1.25rem;
-        box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.137);
-    }
-}
-
-@media (max-width: 26.75em) {
-    .container {
-        padding: 0.9375rem;
-        
         width: 20.1875rem;
-        
+        margin-bottom: 1.25rem;
+        padding: 0.9375rem;
     }
 
     .text {
         margin: 1.25rem 0.1875rem;
-        
     }
 
     h1 {
@@ -106,25 +93,34 @@ p {
     }
 }
 
-@media (max-width: 23.375em) {
+/* Tablet médio em diante (a partir de 428px) */
+@media (min-width: 26.75em) {
     .container {
-        margin-bottom: 1.25rem;
-        width: 18.125rem;
+        width: 26.375rem;
+        padding: 1.25rem;
+        margin-bottom: 3.75rem;
     }
 
     .text {
-        margin: 0.3125rem 0.1875rem;
+        margin: 1.5625rem;
     }
 
     h1 {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
     p {
-        font-size: 0.93rem;
+        font-size: 1.2rem;
     }
 
     .network {
-        font-size: 0.7rem;
+        font-size: 1rem;
+    }
+}
+
+/* Telas maiores (a partir de 884px) */
+@media (min-width: 55.25em) {
+    .container {
+        width: 26.188rem;
     }
 }
