@@ -25,7 +25,7 @@ I created a QR Code component with HTML and CSS. The goal was to practice stylin
 ###Links
 
 - Solution URL: [https://github.com/your-username/qr-code-component-main](https://github.com/lucassalles-git/qr-code-component-main)
-- Live site URL: [https://your-username.github.io/qr-code-component-main](https://your-username.github.io/qr-code-component-main)
+- Live site URL: [https://your-username.github.io/qr-code-component-main](https://lucassalles-git.github.io/qr-code-component-main/)
 
 ## My process
 
