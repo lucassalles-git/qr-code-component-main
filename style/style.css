@@ -27,25 +27,25 @@ body {
 
 .container {
     width: 26.188rem;
-    margin-bottom: 60px;
-    padding: 20px;
+    margin-bottom: 3.75rem;
+    padding: 1.25rem;
     background-color: var(--white);
-    border-radius: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.137);
+    border-radius: 1.25rem;
+    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.137);
 }
 
 .image {
-    border-radius: 20px;
+    border-radius: 1.25rem;
     width: 100%;
 }
 
 .text {
-    margin: 25px;
+    margin: 1.5625rem;
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
+h1 {
+    margin-bottom: 1.25rem;
     color: var(--slate-900);
     font-size: 1.8rem;
 }
@@ -53,64 +53,78 @@ h2 {
 p {
     font-size: 1.2rem;
     color: var(--slate-500);
-
 }
 
 .attribution {
-    font-size: 11px;
     text-align: center;
+}
+
+.network {
+    font-size: 1rem;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 884px) {
+
+@media (max-width: 55.25em) {
+
+    
     .container {
         width: 26.375rem;
-        margin-bottom: 60px;
-        padding: 20px;
-        background-color: var(--white);
-        border-radius: 20px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.137);
+        margin-bottom: 3.75rem;
+        padding: 1.25rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.137);
     }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 26.75em) {
     .container {
-        padding: 15px;
-        width: 323px;
+        padding: 0.9375rem;
+        
+        width: 20.1875rem;
+        
     }
 
     .text {
-        margin: 20px 3px;
+        margin: 1.25rem 0.1875rem;
+        
     }
 
-    h2 {
+    h1 {
         font-size: 1.58rem;
     }
 
     p {
         font-size: 1rem;
     }
+
+    .network {
+        font-size: 0.8rem;
+    }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 23.375em) {
     .container {
-        margin-bottom: 20px;
-        width: 290px;
+        margin-bottom: 1.25rem;
+        width: 18.125rem;
     }
 
     .text {
-        margin: 5px 3px;
+        margin: 0.3125rem 0.1875rem;
     }
 
-
-    h2 {
+    h1 {
         font-size: 1.3rem;
     }
 
     p {
         font-size: 0.93rem;
+    }
+
+    .network {
+        font-size: 0.7rem;
     }
 }
